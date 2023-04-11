@@ -1,0 +1,186 @@
+:root { 
+  --primary: #2EC0F9;
+  --secondary: #67AAF9;
+  --tertiary: #9BBDF9;
+  --background: #252525;
+  --alternate: #e24b8f;
+  --subHeaders: white;
+  --cardBackground: white;
+}
+
+#pageBody {
+  height: 100vh;
+}
+
+/* Header/Navbar styling */
+
+header {
+  overflow: hidden;
+  background-color: var(--primary);
+  padding: 10px 10px;
+}
+
+.header-left {
+  color: var(--alternate);
+  text-align: center;
+}
+
+.header-left p {
+  margin: 0px;
+  font-size: large;
+  font-weight: 600;
+}
+
+.header-left .headTitle {
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px;
+}
+
+.header-right a {
+  padding: 5px;
+  background-color: var(--alternate);
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav .nav-link-active {
+  cursor: default;
+  pointer-events: none;        
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  background-color: #b1547e;
+}
+
+@media (min-width: 700px) {
+  header {
+    height: max-content;
+    overflow: hidden;
+    background-color: var(--primary);
+    padding: 10px 10px;
+  }
+  
+  .header-left {
+    float: left;
+    color: var(--alternate);
+    text-align: center;
+    padding-left: 30px;
+  }
+  
+  .header-left .headTitle {
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+    display: flex;
+    gap: 10px;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  
+  .header-right {
+    padding: 15px 0px;
+  }
+
+  .header-right a {
+    font-size: small
+  }
+}
+
+/* Main Page Content styling */
+
+#pageMain {
+  height: 100vh;
+  background-color: var(--background);
+}
+
+.mainHeader {
+  background-color: var(--subHeaders);
+  padding: 6px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.mainBody {
+  padding: 10px 15px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.project-card {
+  flex-direction: column;
+  background-color: var(--cardBackground);
+  border-color: var(--secondary);
+  border-width: 5px;
+  border-style: solid;
+  max-width: 500px;
+}
+
+.image-container {
+  border-color: var(--secondary);
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+}
+
+.project-image {
+  margin: auto;
+  width: 100%;
+  max-width: 500px;
+  max-height: 100%;
+}
+
+.details-bg {
+  background-image: url('./components/images/cork-board.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px 10px 10px 10px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.project-details h2 {
+  padding: 0px;
+  margin: 5px;
+}
+
+.project-details p {
+  margin: 0px;
+  padding: 5px;
+}
+
+.button {
+  align-self: center;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary);
+  border: 2px black solid;
+  border-radius: 30px;
+  padding: 5px;
+  max-width: 100px;
+}

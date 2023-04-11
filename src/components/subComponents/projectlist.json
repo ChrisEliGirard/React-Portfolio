@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Jet-Set Vacations",
+    "description": "A Social Media Site that gives trips their own page that users and their friends can post to so that all trip memories can be saved and found in one place",
+    "url": "https://github.com/ChrisEliGirard/Jet-Set-Social",
+    "image": "Jet-Set-Vacations.png",
+    "tags": ["Group Project", "Project-Lead", "Full-Stack", "TailWindCss", "MySQL", "Sequelize", "Multer"]
+  },
+  {
+    "title": "NotAnotherMovieGenerator",
+    "description": "An application for helping users find a movie to watch as well as test their movie knowledge",
+    "url": "https://github.com/ChrisEliGirard/movienightGame",
+    "image": "NotAnotherMovieGenerator.png",
+    "tags": ["Group Project", "Project-Lead", "Front-End", "TailWindCss"]
+  }
+]

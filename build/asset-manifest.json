@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f7a02f7.css",
+    "main.js": "/static/js/main.851fca24.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Jet-Set-Vacations.png": "/static/media/Jet-Set-Vacations.1b15b178be6070ad28c8.png",
+    "static/media/cork-board.jpg": "/static/media/cork-board.73147a00d213027fb29b.jpg",
+    "static/media/NotAnotherMovieGenerator.png": "/static/media/NotAnotherMovieGenerator.d7dc061cbf71aed4529f.png",
+    "static/media/Resume_Full.png": "/static/media/Resume_Full.ab5fd0c83c5d24b70266.png",
+    "static/media/chris_girard_profile.jpg": "/static/media/chris_girard_profile.ca22c1e004f6147d0be2.jpg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.9dfdc9701c0e1eb622bb.svg",
+    "static/media/Resume.pdf": "/static/media/Resume.211880c5ce516fe7b855.pdf",
+    "static/media/github.svg": "/static/media/github.255db585f8a0eb28a1e4.svg",
+    "index.html": "/index.html",
+    "main.5f7a02f7.css.map": "/static/css/main.5f7a02f7.css.map",
+    "main.851fca24.js.map": "/static/js/main.851fca24.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f7a02f7.css",
+    "static/js/main.851fca24.js"
+  ]
+}
