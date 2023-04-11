@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Christopher Girard's React Single Page Portfolio Website App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This is a Static Only Website for Use as my ` Profesional Portfolio ` 
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Christopher Girard's React Single Page Portfolio Website App](#christopher-girards-react-single-page-portfolio-website-app)
+  - [About](#about)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Preview](#preview)
+  - [Deployment](#deployment)
+  - [Installation](#installation)
+  - [Tests](#tests)
+  - [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+This ` Portfolop App ` is a Static Single Page application that would empower hiring managers, team leads, clients, and whoever else to view my work (both first hand with the application as well as with projects in my portfolio), resume, learn more about me, as well as get into contact with me. It was bootstrapped with Create React App specifically ` CRA_5 ` as the framework and gets packed with ` Webpack_5 ` as configured with ` CRA_5 `. The Application also uses the ` Email.js ` api to send emails to me from a static site. This application was developed to show off my front end skills as a Full-Stack Developer as well as continue to build those skill and get familiar with React before taking on ` NEXT.js `. This Application is a good starting point to continue fleshing out with my projects but also to comeback to and iterate on bringing back new skills i've learned in my future projects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
 
-### `npm run build`
+The following Image Shows the Landing Page of the Portfolio:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Preview of Application](./src/components/images/README_Preview.png)        
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application [React-Portfolio](https://chriseligirard.github.io/React-Portfolio/) is deployed with Github-Paged
+  
+## Installation
 
-### `npm run eject`
+The Application is Deployed although you are able to install it locally and mess with the application yourself.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. To get Started you will need [Node.js](https://nodejs.org/en) if you wish to edit the app or run it in dev mode.
+2. Clone The Repo Down
+3. Run ` npm i ` in your terminal once you cd into the root folder of the application
+4. Finally run ` npm run start ` and the server will boot up and open the default web browser to the apps local hosted port, have fun testing!
+5. Once you are done editing if you'd like to pack all of your changes back into a static app just run ` npm run build `
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tests
+  
+  No Tests are currently written but is supported with ` npm test ` using ` Jest `
+  
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![License: MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
