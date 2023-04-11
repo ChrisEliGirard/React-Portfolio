@@ -30,7 +30,7 @@ The following Image Shows the Landing Page of the Portfolio:
 
 ## Deployment
 
-The application [React-Portfolio](https://chriseligirard.github.io/React-Portfolio/) is deployed with Github-Paged
+[React-Portfolio](https://chriseligirard.github.io/React-Portfolio/) is deployed with Github-Pages
   
 ## Installation
 
