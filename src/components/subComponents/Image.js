@@ -7,7 +7,7 @@ const Image = ({ name }) => {
 
     // If the image doesn't exist. return null
     if (!image) return null;
-    return <img src={image} className="project-image absolute object-cover h-full w-full" alt=''/>;
+    return <img src={image} className="project-image absolute object-cover h-full w-full" alt='A page from the project'/>;
   } catch (error) {
     console.log(`Image with name "${name}" does not exist`);
     return null;

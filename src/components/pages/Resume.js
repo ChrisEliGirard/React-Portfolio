@@ -11,7 +11,7 @@ function Resume() {
         <a href={resumePDF}>View Resume PDF</a>
       </div>
       <center className='overflow-y-scroll'>
-        <img className='object-cover' src={resumeImg} />
+        <img className='object-cover' src={resumeImg} alt="Christopher Girard's Resume.pdf" />
       </center>
     </main>
   )

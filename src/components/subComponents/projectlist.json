@@ -1,5 +1,12 @@
 [
   {
+    "title": "Knowledge-Hub",
+    "description": "An education content hub for students and teachers to host their classes",
+    "url": "https://github.com/TheMernMachine/Knowledge-Hub",
+    "image": "KnowledgeHub.png",
+    "tags": ["Group Project", "Full-Stack", "React", "Apllo/GraphQL", "Material-UI", "MongoDB", "JsonWebToken"]
+  },
+  {
     "title": "Jet-Set Vacations",
     "description": "A Social Media Site that gives trips their own page that users and their friends can post to so that all trip memories can be saved and found in one place",
     "url": "https://github.com/ChrisEliGirard/Jet-Set-Social",
